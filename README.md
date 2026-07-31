@@ -1,24 +1,17 @@
-# Ericka Parker Professional Portfolio
+# Ericka C Parker Executive Brand Website — Version 2
 
-A responsive, single-page professional portfolio built for GitHub Pages.
+This redesign includes:
+- Premium hero and brand positioning
+- Philosophy and impact pillars
+- Core Strengths in Motion
+- Animated At a Glance metrics
+- MD Anderson success story
+- Professional journey and expertise
+- Mobile-responsive navigation
+- Résumé and portfolio downloads
 
-## Publish on GitHub Pages
+## Before publishing
+Download a backup of the current GitHub repository.
 
-1. Open your `erickacparker-cell.github.io` repository.
-2. Choose **Add file → Upload files**.
-3. Upload the contents of this folder, not the folder itself:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `images/`
-   - `assets/`
-4. Commit the changes.
-5. Wait one to three minutes, then visit:
-   `https://erickacparker-cell.github.io`
-
-## Connect the custom domain later
-
-After the GitHub site works, open **Settings → Pages → Custom domain** and enter:
-`erickacparker.online`
-
-The Wix domain DNS records will then need to be pointed to GitHub Pages.
+## Publish
+Upload the contents of this folder to the root of the `erickacparker-cell.github.io` repository and replace the existing files. Your custom domain and HTTPS settings do not need to change.
