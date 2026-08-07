@@ -6,7 +6,18 @@
 <meta name="description" content="Ericka C. Parker — creating clarity, connecting people, delivering results.">
 <title>Ericka C. Parker | Executive Integrator</title>
 <link rel="icon" href="ep-logo.png">
-<link rel="stylesheet" href="constellation-v2.css?v=2">
+<link rel="stylesheet" href="constellation-v2.css?v=3">
+
+<style>
+/* Critical hero fallback: the first screen must remain visible even if JS/reveal animation fails. */
+.hero-copy.hero-always-visible,
+.visual.hero-always-visible{
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
+}
+</style>
+
 </head>
 <body>
 <header class="nav">
@@ -20,7 +31,7 @@
 
 <main id="top">
 <section class="hero">
-  <div class="hero-copy rise">
+  <div class="hero-copy hero-always-visible">
     <p class="kicker">EXECUTIVE INTEGRATOR • OPERATIONAL LEADER</p>
     <h1>Creating Clarity.<br><em>Connecting People.</em><br>Delivering Results.</h1>
     <p class="lead">I create clarity where complexity exists by connecting people, processes, and purpose—helping organizations move forward with confidence.</p>
@@ -28,7 +39,7 @@
     <div class="reputation"><span>Trusted</span><span>Strategic</span><span>Approachable</span><span>Innovative</span><span>Dependable</span></div>
   </div>
 
-  <div class="visual rise">
+  <div class="visual hero-always-visible">
     <div class="portrait"><img src="ericka-office.jpg" alt="Ericka C. Parker in an office setting"></div>
     <div class="constellation" aria-label="Rotating constellation">
       <div class="halo h1"></div><div class="halo h2"></div>
@@ -148,6 +159,6 @@
   <div><b>ERICKA C. PARKER</b><span>Creating Clarity. Connecting People. Delivering Results.</span></div>
   <p>Thank you for taking the time to learn my story.</p>
 </footer>
-<script src="constellation-v2.js?v=2"></script>
+<script src="constellation-v2.js?v=3"></script>
 </body>
 </html>
