@@ -33,3 +33,11 @@
  .people-photo img,.people-photo div{grid-column:1;grid-row:auto}
  .people-photo div{padding:4px 3px 12px}
 }
+
+/* ===== Phase III: recruiter experience ===== */
+.text-metric strong{font-size:clamp(2.1rem,4vw,4.3rem);letter-spacing:.035em}
+@media (min-width:1101px){
+  .mission-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+  .mission{height:100%}
+}
+.video-shell video{object-fit:contain;background:#071521}
