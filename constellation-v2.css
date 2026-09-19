@@ -37,7 +37,7 @@
 /* ===== Phase III: recruiter experience ===== */
 .text-metric strong{font-size:clamp(2.1rem,4vw,4.3rem);letter-spacing:.035em}
 @media (min-width:1101px){
-  .mission-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+  .mission-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
   .mission{height:100%}
 }
 .video-shell video{object-fit:contain;background:#071521}
